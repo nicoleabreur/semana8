@@ -1,0 +1,84 @@
+body{
+    background: #c0392b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #43084c, #590a37);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #43084c, #590a37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+nav{
+    margin-bottom: 100px;
+}
+
+ul{
+    display: inline;
+    list-style-type: none;   
+}
+
+h1{ 
+    font-size:60px;
+    margin-top: 100px;
+
+}
+
+li{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    margin:auto;
+    margin-bottom: 100px;
+}
+
+li:hover{
+transform: scale(1.3);
+}
+ img {
+    max-width: 50%;
+    float: left;
+    padding-left: 250px;
+   
+}
+
+.contenido{
+    padding-top: 100px;
+    text-align: left;
+    margin-right: 12pc;
+}
+
+p{
+    padding-bottom: -14px;
+    margin-top: -15
+}
+
+button{
+    border-radius: 50px;
+    width: 120px;
+    background-color: white;
+}
+
+.general{
+   
+
+    width: 1200px;
+    position: relative;
+    margin:0 auto;
+    line-height: 1.4em;
+    }
+    
+     
+    @media only screen and (max-width: 479px){
+        #container2 { width: 90%; }
+    
+}
+
+footer{
+    margin-top: 300px;
+}
+
+
+
+
+
+
